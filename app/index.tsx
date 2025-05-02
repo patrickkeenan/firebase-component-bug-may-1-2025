@@ -5,9 +5,9 @@ import { initializeApp } from "firebase/app";
 // import { getAnalytics, isSupported } from "firebase/analytics";
 // import { getFunctions, connectFunctionsEmulator } from "firebase/functions";
 // @ts-ignore
-import { getAuth, initializeAuth } from "firebase/auth";
+import { getAuth, getReactNativePersistence, initializeAuth } from "firebase/auth";
 // @ts-ignore
-import { getReactNativePersistence } from '@firebase/auth/dist/rn/index.js';
+// import { getReactNativePersistence } from '@firebase/auth/dist/rn/index.js';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { doc, getFirestore, setDoc } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
