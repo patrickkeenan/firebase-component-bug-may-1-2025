@@ -63,7 +63,7 @@ export default function HomeScreen() {
 
         const docRef = doc(firestore, 'users', "test");
         setDoc(docRef, {
-          first: "Ada222",
+          first: "Ada22233",
           last: "Lovelace",
           born: 1815
         }).then((docRef) => {
